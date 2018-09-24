@@ -1,0 +1,3 @@
+/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir
