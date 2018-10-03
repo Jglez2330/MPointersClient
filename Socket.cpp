@@ -6,9 +6,10 @@
 #include <iostream>
 #include <thread>
 #include <arpa/inet.h>
+//#include <tclDecls.h>
 #include "Socket.h"
 
-
+/*
 ServerSocket* ServerSocket::serverSocketInstancePTR = nullptr;
 
 void ServerSocket::error(char *error) {
@@ -49,11 +50,11 @@ ServerSocket::ServerSocket() {
     this->client = accept(this->serverSocket,(struct sockaddr*)&clientAdress,&clientLenght);
     std::cout<< this->clientAdress.sin_port<< std::endl;
 //Recibe un mensaje del cliente
-    /*read(this->client,buffer, sizeof(buffer));
+    read(this->client,buffer, sizeof(buffer));
     printf("%s\n",buffer);
 
     std::string bufferString(buffer);
-    std::cout<< bufferString << std::endl;*/
+    std::cout<< bufferString << std::endl;
     //std::thread listeningClients(&ServerSocket::listenClient);
     //listeningClients.join();
 
@@ -65,10 +66,12 @@ ServerSocket::ServerSocket() {
 std::string ServerSocket::readClient() {
 
     bzero(buffer, sizeof(buffer));
-    read(this->client,buffer, sizeof(buffer));
-
+    read(this->client,buffer,1);
+    int n = (int) buffer[0];
+    read(this->client,buffer,n);
 
     std::string bufferToString(buffer);
+
     return bufferToString;
 
 
@@ -104,7 +107,7 @@ void ServerSocket::requestMemory(ssize_t size) {
 
 
 }
-
+*/
 ClientSocket::ClientSocket(int port, char* ip) {
     this->port = htons(port);
 
@@ -116,5 +119,74 @@ ClientSocket::ClientSocket(int port, char* ip) {
 
     serverAdress.sin_addr.s_addr = inet_addr(ip);
     connect(this->clientSocket,(struct sockaddr *)&serverAdress, sizeof(serverAdress));
+
+
+}
+
+void ClientSocket::send(json Json) {
+
+
+write(this->clientSocket,Json.dump().data(),256);
+
+
+}
+
+void ClientSocket::requestMemory(int cantInt) {
+    json jsonMemory = {{"opcode",0},{"size",cantInt}};
+    send(jsonMemory);
+
+}
+
+int ClientSocket::saveValue(int value) {
+    json saveValueJson = {{"opcode",1},{"Data",value}};
+    send(saveValueJson);
+    bzero(this->buffer, sizeof(buffer));
+    read(this->clientSocket,buffer,256);
+    std::string bufferString(buffer);
+    json jsonValue;
+    bool complete = false;
+    while (!complete) {
+
+        try {
+
+            jsonValue = json::parse(bufferString);
+            complete = true;
+        } catch (...) {}
+
+    }
+
+    return jsonValue["ID"];
+}
+
+int ClientSocket::getValue(int id) {
+    json idJson = {{"opcode", 2},
+                   {"id",   id}};
+    send(idJson);
+    bzero(this->buffer, sizeof(buffer));
+    read(this->clientSocket, buffer, 256);
+    std::string bufferString(buffer);
+    bool complete = false;
+    json jsonValue;
+    while (!complete) {
+
+        try {
+
+            jsonValue = json::parse(bufferString);
+            complete = true;
+        } catch (...) {}
+
+    }
+    return jsonValue["Data"];
+}
+
+void ClientSocket::changeValue(int id, int value) {
+    json change = {{"opcode",3},{"id", id},{"Data",value}};
+    send(change);
+
+}
+
+void ClientSocket::removeValue(int id) {
+    json remove = {{"opcode",4},{"id",id}};
+    send(remove);
 
 }

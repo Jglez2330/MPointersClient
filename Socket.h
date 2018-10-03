@@ -31,7 +31,7 @@ protected:
 };
 
 //class SocketClient:Socket;
-
+/*
 class ServerSocket : Socket{
 public:
     //void listen();
@@ -63,12 +63,18 @@ private:
 
     char *split(char *ToSplit, char Delimeter);
 };
-
+*/
 class ClientSocket: Socket{
 public:
     ClientSocket(int port,char* ip);
+    void requestMemory(int cantInt);
+    int saveValue(int value);
+    int getValue(int id);
+    void changeValue(int id, int value);
+    void removeValue(int id);
 
 private:
+    void send(json Json);
     int clientSocket;
     int port;
 
