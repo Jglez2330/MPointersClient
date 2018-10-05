@@ -40,9 +40,17 @@ int main() {
 
 */
     MPointer<int> mPointer = MPointer<int>();
-    mPointer.MPointer_init(5555,"192.168.0.104",10);
+    MPointer<int> mPointer1;
+    mPointer.MPointer_init(5555,"172.19.49.251",10);
+    mPointer.New();
+    mPointer1.New();
 
-    mPointer = 5;
+
+    mPointer = 1;
+    mPointer1= mPointer;
+    std::cout<<*mPointer1 << std::endl;
+    std::cout<<*mPointer << std::endl;
+
 
     return 0;
 }

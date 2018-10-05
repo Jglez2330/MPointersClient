@@ -33,12 +33,14 @@ public:
 
     static bool isClientActive;
 
-    static int MPointer_init(int port,char* ip, int cabtElements);
+    static int MPointer_init(int port,char* ip, int cantElements);
 
 private:
 
     static ClientSocket *clientSocket;
     T* val;
+    bool fVal;
+    int idServer;
     MPointer<T>* ptr;
     int ID_GC;
     ReferenceCounter* referenceCounter;

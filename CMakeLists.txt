@@ -4,4 +4,4 @@ project(MpointersClient)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pthread")
 
-add_executable(MpointersClient main.cpp Socket.cpp Socket.h MPointer.cpp MPointer.h ReferenceCounter.cpp ReferenceCounter.h)
+add_executable(MpointersClient main.cpp Socket.cpp Socket.h MPointer.cpp MPointer.h ReferenceCounter.cpp ReferenceCounter.h json.hpp)
