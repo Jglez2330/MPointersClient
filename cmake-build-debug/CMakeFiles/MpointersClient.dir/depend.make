@@ -3,7 +3,9 @@
 
 CMakeFiles/MpointersClient.dir/Socket.cpp.o: ../Socket.cpp
 CMakeFiles/MpointersClient.dir/Socket.cpp.o: ../Socket.h
+CMakeFiles/MpointersClient.dir/Socket.cpp.o: ../json.hpp
 
 CMakeFiles/MpointersClient.dir/main.cpp.o: ../Socket.h
+CMakeFiles/MpointersClient.dir/main.cpp.o: ../json.hpp
 CMakeFiles/MpointersClient.dir/main.cpp.o: ../main.cpp
 

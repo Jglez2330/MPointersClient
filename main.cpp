@@ -1,9 +1,9 @@
 #include <iostream>
 #include "Socket.h"
 
-#include <nlohmann/json.hpp>
 #include "MPointer.h"
 #include "MPointer.cpp"
+#include "json.hpp"
 
 using json = nlohmann::json;
 

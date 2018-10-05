@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MpointersClient.dir/main.cpp.o"
   "CMakeFiles/MpointersClient.dir/Socket.cpp.o"
+  "CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
   "MpointersClient.pdb"
   "MpointersClient"
 )
