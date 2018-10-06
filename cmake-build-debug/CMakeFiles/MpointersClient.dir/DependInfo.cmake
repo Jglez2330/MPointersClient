@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/MPointer.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/NodeGC.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/NodeLD.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/Socket.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/Socket.cpp.o"
-  "/Users/jglez2330/Documents/C++/MpointersClient/main.cpp" "/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/main.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/DoubleLInkedList.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/GarbageCollector.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/MPointer.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/NodeGC.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/NodeGC.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/NodeLD.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/NodeLD.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/ReferenceCounter.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/Socket.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/Socket.cpp.o"
+  "/home/joseph/Documents/C++/MPointersClient/main.cpp" "/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

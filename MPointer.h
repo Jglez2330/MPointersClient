@@ -26,22 +26,26 @@ public:
     MPointer<T>& operator=(const MPointer<T>& myPtr);
     template <typename U> void operator=(U data);
     int getId();
-    T getValue();
+    T getValue() const;
     ReferenceCounter* getRC();
     T* getPointerValue();
-
-
     static bool isClientActive;
-
+    static ClientSocket *clientSocket;
     static int MPointer_init(int port,char* ip, int cantElements);
+    inline bool operator==(const MPointer<T>& myPtr);
+    inline bool operator!=(const MPointer<T>& myPtr);
+    inline bool operator <(const MPointer<T>& myPtr);
+    inline bool operator >(const MPointer<T>& myPtr);
+    inline bool operator <=(const MPointer<T>& myPtr);
+    inline bool operator >=(const MPointer<T>& myPtr);
+
 
 private:
 
-    static ClientSocket *clientSocket;
     T* val;
+    MPointer<T>* ptr;
     bool fVal;
     int idServer;
-    MPointer<T>* ptr;
     int ID_GC;
     ReferenceCounter* referenceCounter;
 };

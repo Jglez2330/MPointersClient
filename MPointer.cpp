@@ -5,13 +5,16 @@
 #include "MPointer.h"
 #include <cstdlib>
 #include "GarbageCollector.h"
+#include "GarbageCollector.cpp"
+
+
 
 template <typename T>
 bool MPointer<T>::isClientActive = false;
 template <typename T>
 ClientSocket* MPointer<T>::clientSocket = nullptr;
 template <typename T>
-MPointer<T>::MPointer(){
+MPointer<T>::MPointer() {
     /*this->ptr = this;
     GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
     this->ID_GC = gcInstance->addMPointer(this->ptr);
@@ -48,7 +51,7 @@ template <typename T>
 T& MPointer<T>::operator*() {
 
     if (!isClientActive){
-    return *this->val;
+        return *this->val;
     }else{
         int value = clientSocket->getValue(this->idServer);
         T& temp = (T&) value;
@@ -78,7 +81,10 @@ MPointer<T>& MPointer<T>::operator=(const MPointer<T>& myPtr) {
                 this->referenceCounter = myPtr.referenceCounter;
                 this->referenceCounter->addRef();
             }else{
+                this->fVal = false;
+                clientSocket->removeValue(this->idServer);
                 this->idServer = myPtr.idServer;
+
             }
         }
     }
@@ -112,6 +118,7 @@ void MPointer<T>::operator=( U data) {
         std::cout << "The data type does not match "<<  std::endl;
     }
 
+
 }
 
 template <typename T>
@@ -121,7 +128,7 @@ int MPointer<T>::getId() {
 }
 
 template <typename T>
-T MPointer<T>::getValue() {
+T MPointer<T>::getValue() const{
 
     return *this->val;
 }
@@ -138,6 +145,7 @@ T* MPointer<T>::getPointerValue() {
     return this->val;
 }
 
+
 template <typename T>
 MPointer<T>::~MPointer() {
 
@@ -148,7 +156,45 @@ MPointer<T>::~MPointer() {
 
 }
 
-template<typename T>
+template <typename T>
+inline bool MPointer<T>::operator==(const MPointer<T>& myPtr){
+
+    return this->getValue() == myPtr.getValue();
+
+}
+
+template <typename T>
+bool MPointer<T>::operator!=(const MPointer<T> &myPtr) {
+
+    return this->getValue() != myPtr.getValue();
+}
+
+
+template <typename T>
+bool MPointer<T>::operator<(const MPointer<T> &myPtr) {
+
+    return this->getValue() < myPtr.getValue();
+}
+
+
+template <typename T>
+bool MPointer<T>::operator>(const MPointer<T> &myPtr) {
+
+    return this->getValue() > myPtr.getValue();
+}
+
+template <typename T>
+bool MPointer<T>::operator<=(const MPointer<T> &myPtr) {
+
+    return this->getValue() <= myPtr.getValue();
+}
+
+template <typename T>
+bool MPointer<T>::operator>=(const MPointer<T> &myPtr) {
+
+    return this->getValue() >= myPtr.getValue();
+}
+template <typename T>
 int MPointer<T>::MPointer_init(int port,char* ip, int cantElements) {
     if (!isClientActive){
         isClientActive = true;

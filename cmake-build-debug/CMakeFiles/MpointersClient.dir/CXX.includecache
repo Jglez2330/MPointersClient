@@ -6,65 +6,73 @@
 
 #IncludeRegexTransform: 
 
-/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp
+/home/joseph/Documents/C++/MPointersClient/DoubleLInkedList.cpp
 DoubleLInkedList.h
-/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.h
+/home/joseph/Documents/C++/MPointersClient/DoubleLInkedList.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.h
+/home/joseph/Documents/C++/MPointersClient/DoubleLInkedList.h
 NodeLD.h
-/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.h
+/home/joseph/Documents/C++/MPointersClient/NodeLD.h
 NodeLD.cpp
-/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp
+/home/joseph/Documents/C++/MPointersClient/NodeLD.cpp
 
-/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp
+/home/joseph/Documents/C++/MPointersClient/GarbageCollector.cpp
 GarbageCollector.h
-/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.h
-DoubleLInkedList.cpp
-/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp
+/home/joseph/Documents/C++/MPointersClient/GarbageCollector.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.h
+/home/joseph/Documents/C++/MPointersClient/GarbageCollector.h
 LInkedLIstGC.h
-/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.h
+/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.h
 LInkedLIstGC.cpp
-/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp
+/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.cpp
 
-/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp
+/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.cpp
 LInkedLIstGC.h
-/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.h
+/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.h
+/home/joseph/Documents/C++/MPointersClient/LInkedLIstGC.h
 NodeGC.h
-/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.h
+/home/joseph/Documents/C++/MPointersClient/NodeGC.h
 NodeGC.cpp
-/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp
+/home/joseph/Documents/C++/MPointersClient/NodeGC.cpp
 
-/Users/jglez2330/Documents/C++/MpointersClient/MPointer.h
+/home/joseph/Documents/C++/MPointersClient/MPointer.cpp
+MPointer.h
+/home/joseph/Documents/C++/MPointersClient/MPointer.h
+cstdlib
+-
+GarbageCollector.h
+/home/joseph/Documents/C++/MPointersClient/GarbageCollector.h
+GarbageCollector.cpp
+/home/joseph/Documents/C++/MPointersClient/GarbageCollector.cpp
+
+/home/joseph/Documents/C++/MPointersClient/MPointer.h
 ReferenceCounter.h
-/Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.h
+/home/joseph/Documents/C++/MPointersClient/ReferenceCounter.h
 Socket.h
-/Users/jglez2330/Documents/C++/MpointersClient/Socket.h
+/home/joseph/Documents/C++/MPointersClient/Socket.h
 iostream
 -
 
-/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp
+/home/joseph/Documents/C++/MPointersClient/NodeGC.cpp
 NodeGC.h
-/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.h
+/home/joseph/Documents/C++/MPointersClient/NodeGC.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.h
+/home/joseph/Documents/C++/MPointersClient/NodeGC.h
 MPointer.h
-/Users/jglez2330/Documents/C++/MpointersClient/MPointer.h
+/home/joseph/Documents/C++/MPointersClient/MPointer.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp
+/home/joseph/Documents/C++/MPointersClient/NodeLD.cpp
 NodeLD.h
-/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.h
+/home/joseph/Documents/C++/MPointersClient/NodeLD.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.h
+/home/joseph/Documents/C++/MPointersClient/NodeLD.h
 MPointer.h
-/Users/jglez2330/Documents/C++/MpointersClient/MPointer.h
+/home/joseph/Documents/C++/MPointersClient/MPointer.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.h
+/home/joseph/Documents/C++/MPointersClient/ReferenceCounter.h
 
-/Users/jglez2330/Documents/C++/MpointersClient/Socket.h
+/home/joseph/Documents/C++/MPointersClient/Socket.h
 stdio.h
 -
 sys/socket.h
@@ -74,9 +82,9 @@ unistd.h
 netinet/in.h
 -
 json.hpp
-/Users/jglez2330/Documents/C++/MpointersClient/json.hpp
+/home/joseph/Documents/C++/MPointersClient/json.hpp
 
-/Users/jglez2330/Documents/C++/MpointersClient/json.hpp
+/home/joseph/Documents/C++/MPointersClient/json.hpp
 algorithm
 -
 cassert
@@ -353,4 +361,18 @@ vector
 -
 utility
 -
+
+/home/joseph/Documents/C++/MPointersClient/main.cpp
+iostream
+-
+Socket.h
+/home/joseph/Documents/C++/MPointersClient/Socket.h
+MPointer.h
+/home/joseph/Documents/C++/MPointersClient/MPointer.h
+MPointer.cpp
+/home/joseph/Documents/C++/MPointersClient/MPointer.cpp
+json.hpp
+/home/joseph/Documents/C++/MPointersClient/json.hpp
+DoubleLInkedList.cpp
+/home/joseph/Documents/C++/MPointersClient/DoubleLInkedList.cpp
 
