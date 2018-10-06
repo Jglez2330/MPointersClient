@@ -8,104 +8,135 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug"/>
+				<Option working_dir="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug"/>
+				<Option working_dir="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug"/>
+				<Option working_dir="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MpointersClient">
-				<Option output="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/MpointersClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug"/>
+				<Option output="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/MpointersClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 MpointersClient"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 MpointersClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MpointersClient/fast">
-				<Option output="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/MpointersClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joseph/Documents/C++/MPointersClient/cmake-build-debug"/>
+				<Option output="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/MpointersClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 MpointersClient/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 MpointersClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/MPointer.cpp">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/MPointer.h">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.h">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/ReferenceCounter.h">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/Socket.cpp">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.h">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/Socket.h">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/json.hpp">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.h">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/main.cpp">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/MPointer.cpp">
 			<Option target="MpointersClient"/>
 		</Unit>
-		<Unit filename="/home/joseph/Documents/C++/MPointersClient/CMakeLists.txt">
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/MPointer.h">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/NodeGC.h">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/NodeLD.h">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.cpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.h">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/Socket.cpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/Socket.h">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/json.hpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/main.cpp">
+			<Option target="MpointersClient"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C++/MpointersClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

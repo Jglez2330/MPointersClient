@@ -4,14 +4,14 @@
 
 #include "MPointer.h"
 #include <cstdlib>
-//#include "GarbageCollector.h"
+#include "GarbageCollector.h"
 
 template <typename T>
 bool MPointer<T>::isClientActive = false;
 template <typename T>
 ClientSocket* MPointer<T>::clientSocket = nullptr;
 template <typename T>
-MPointer<T>::MPointer():val(nullptr) {
+MPointer<T>::MPointer(){
     /*this->ptr = this;
     GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
     this->ID_GC = gcInstance->addMPointer(this->ptr);
@@ -27,8 +27,8 @@ MPointer<T>::MPointer(T nVal) {
     this->ptr = this;
     this->val = (T*) malloc(sizeof(T));
     *this->val = nVal;
-    //GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
-    //this->ID_GC = gcInstance->addMPointer(this->ptr);
+    GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
+    this->ID_GC = gcInstance->addMPointer(this->ptr);
     referenceCounter = new ReferenceCounter();
     referenceCounter->addRef();
 
@@ -37,8 +37,8 @@ MPointer<T>::MPointer(T nVal) {
 template <typename T>
 void MPointer<T>::New() {
     this->ptr = this;
-    //GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
-    //this->ID_GC = gcInstance->addMPointer(this->ptr);
+    GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
+    this->ID_GC = gcInstance->addMPointer(this->ptr);
     referenceCounter = new ReferenceCounter();
     referenceCounter->addRef();
     this->val = (T*) malloc (sizeof(T));
@@ -142,8 +142,8 @@ template <typename T>
 MPointer<T>::~MPointer() {
 
     std::cout << "It was called the destructor of "<< this->getId() << std::endl;
-    //GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
-    //gcInstance->cleanMemory(this->getId());
+    GarbageCollector<T>* gcInstance = GarbageCollector<T>::getInstance();
+    gcInstance->cleanMemory(this->getId());
 
 
 }

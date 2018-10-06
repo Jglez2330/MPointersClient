@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joseph/Documents/C++/MPointersClient
+CMAKE_SOURCE_DIR = /Users/jglez2330/Documents/C++/MpointersClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joseph/Documents/C++/MPointersClient/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MpointersClient.dir/depend.make
@@ -59,48 +59,132 @@ include CMakeFiles/MpointersClient.dir/flags.make
 
 CMakeFiles/MpointersClient.dir/main.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
 CMakeFiles/MpointersClient.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MpointersClient.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/main.cpp.o -c /home/joseph/Documents/C++/MPointersClient/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MpointersClient.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/main.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/main.cpp
 
 CMakeFiles/MpointersClient.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/C++/MPointersClient/main.cpp > CMakeFiles/MpointersClient.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/main.cpp > CMakeFiles/MpointersClient.dir/main.cpp.i
 
 CMakeFiles/MpointersClient.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/C++/MPointersClient/main.cpp -o CMakeFiles/MpointersClient.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/main.cpp -o CMakeFiles/MpointersClient.dir/main.cpp.s
 
 CMakeFiles/MpointersClient.dir/Socket.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
 CMakeFiles/MpointersClient.dir/Socket.cpp.o: ../Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MpointersClient.dir/Socket.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/Socket.cpp.o -c /home/joseph/Documents/C++/MPointersClient/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MpointersClient.dir/Socket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/Socket.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/Socket.cpp
 
 CMakeFiles/MpointersClient.dir/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/Socket.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/C++/MPointersClient/Socket.cpp > CMakeFiles/MpointersClient.dir/Socket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/Socket.cpp > CMakeFiles/MpointersClient.dir/Socket.cpp.i
 
 CMakeFiles/MpointersClient.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/Socket.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/C++/MPointersClient/Socket.cpp -o CMakeFiles/MpointersClient.dir/Socket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/Socket.cpp -o CMakeFiles/MpointersClient.dir/Socket.cpp.s
 
 CMakeFiles/MpointersClient.dir/MPointer.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
 CMakeFiles/MpointersClient.dir/MPointer.cpp.o: ../MPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/MPointer.cpp.o -c /home/joseph/Documents/C++/MPointersClient/MPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/MPointer.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/MPointer.cpp
 
 CMakeFiles/MpointersClient.dir/MPointer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/MPointer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/C++/MPointersClient/MPointer.cpp > CMakeFiles/MpointersClient.dir/MPointer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/MPointer.cpp > CMakeFiles/MpointersClient.dir/MPointer.cpp.i
 
 CMakeFiles/MpointersClient.dir/MPointer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/MPointer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/C++/MPointersClient/MPointer.cpp -o CMakeFiles/MpointersClient.dir/MPointer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/MPointer.cpp -o CMakeFiles/MpointersClient.dir/MPointer.cpp.s
+
+CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o: ../ReferenceCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.cpp
+
+CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.cpp > CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.i
+
+CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/ReferenceCounter.cpp -o CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.s
+
+CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o: ../DoubleLInkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp
+
+CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp > CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.i
+
+CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/DoubleLInkedList.cpp -o CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.s
+
+CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o: ../GarbageCollector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp
+
+CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp > CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.i
+
+CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/GarbageCollector.cpp -o CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.s
+
+CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o: ../LInkedLIstGC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp
+
+CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp > CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.i
+
+CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/LInkedLIstGC.cpp -o CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.s
+
+CMakeFiles/MpointersClient.dir/NodeGC.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/NodeGC.cpp.o: ../NodeGC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MpointersClient.dir/NodeGC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/NodeGC.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp
+
+CMakeFiles/MpointersClient.dir/NodeGC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/NodeGC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp > CMakeFiles/MpointersClient.dir/NodeGC.cpp.i
+
+CMakeFiles/MpointersClient.dir/NodeGC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/NodeGC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/NodeGC.cpp -o CMakeFiles/MpointersClient.dir/NodeGC.cpp.s
+
+CMakeFiles/MpointersClient.dir/NodeLD.cpp.o: CMakeFiles/MpointersClient.dir/flags.make
+CMakeFiles/MpointersClient.dir/NodeLD.cpp.o: ../NodeLD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MpointersClient.dir/NodeLD.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MpointersClient.dir/NodeLD.cpp.o -c /Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp
+
+CMakeFiles/MpointersClient.dir/NodeLD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MpointersClient.dir/NodeLD.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp > CMakeFiles/MpointersClient.dir/NodeLD.cpp.i
+
+CMakeFiles/MpointersClient.dir/NodeLD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MpointersClient.dir/NodeLD.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jglez2330/Documents/C++/MpointersClient/NodeLD.cpp -o CMakeFiles/MpointersClient.dir/NodeLD.cpp.s
 
 # Object files for target MpointersClient
 MpointersClient_OBJECTS = \
 "CMakeFiles/MpointersClient.dir/main.cpp.o" \
 "CMakeFiles/MpointersClient.dir/Socket.cpp.o" \
-"CMakeFiles/MpointersClient.dir/MPointer.cpp.o"
+"CMakeFiles/MpointersClient.dir/MPointer.cpp.o" \
+"CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o" \
+"CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o" \
+"CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o" \
+"CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o" \
+"CMakeFiles/MpointersClient.dir/NodeGC.cpp.o" \
+"CMakeFiles/MpointersClient.dir/NodeLD.cpp.o"
 
 # External object files for target MpointersClient
 MpointersClient_EXTERNAL_OBJECTS =
@@ -108,9 +192,15 @@ MpointersClient_EXTERNAL_OBJECTS =
 MpointersClient: CMakeFiles/MpointersClient.dir/main.cpp.o
 MpointersClient: CMakeFiles/MpointersClient.dir/Socket.cpp.o
 MpointersClient: CMakeFiles/MpointersClient.dir/MPointer.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/NodeGC.cpp.o
+MpointersClient: CMakeFiles/MpointersClient.dir/NodeLD.cpp.o
 MpointersClient: CMakeFiles/MpointersClient.dir/build.make
 MpointersClient: CMakeFiles/MpointersClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MpointersClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MpointersClient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MpointersClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +213,6 @@ CMakeFiles/MpointersClient.dir/clean:
 .PHONY : CMakeFiles/MpointersClient.dir/clean
 
 CMakeFiles/MpointersClient.dir/depend:
-	cd /home/joseph/Documents/C++/MPointersClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joseph/Documents/C++/MPointersClient /home/joseph/Documents/C++/MPointersClient /home/joseph/Documents/C++/MPointersClient/cmake-build-debug /home/joseph/Documents/C++/MPointersClient/cmake-build-debug /home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jglez2330/Documents/C++/MpointersClient /Users/jglez2330/Documents/C++/MpointersClient /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/MpointersClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MpointersClient.dir/depend
 

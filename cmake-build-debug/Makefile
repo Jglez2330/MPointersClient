@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joseph/Documents/C++/MPointersClient
+CMAKE_SOURCE_DIR = /Users/jglez2330/Documents/C++/MpointersClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joseph/Documents/C++/MPointersClient/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/joseph/Documents/C++/MPointersClient/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/joseph/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles /home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/C++/MPointersClient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jglez2330/Documents/C++/MpointersClient/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,87 @@ MpointersClient/fast:
 	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/build
 .PHONY : MpointersClient/fast
 
+DoubleLInkedList.o: DoubleLInkedList.cpp.o
+
+.PHONY : DoubleLInkedList.o
+
+# target to build an object file
+DoubleLInkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.o
+.PHONY : DoubleLInkedList.cpp.o
+
+DoubleLInkedList.i: DoubleLInkedList.cpp.i
+
+.PHONY : DoubleLInkedList.i
+
+# target to preprocess a source file
+DoubleLInkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.i
+.PHONY : DoubleLInkedList.cpp.i
+
+DoubleLInkedList.s: DoubleLInkedList.cpp.s
+
+.PHONY : DoubleLInkedList.s
+
+# target to generate assembly for a file
+DoubleLInkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/DoubleLInkedList.cpp.s
+.PHONY : DoubleLInkedList.cpp.s
+
+GarbageCollector.o: GarbageCollector.cpp.o
+
+.PHONY : GarbageCollector.o
+
+# target to build an object file
+GarbageCollector.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.o
+.PHONY : GarbageCollector.cpp.o
+
+GarbageCollector.i: GarbageCollector.cpp.i
+
+.PHONY : GarbageCollector.i
+
+# target to preprocess a source file
+GarbageCollector.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.i
+.PHONY : GarbageCollector.cpp.i
+
+GarbageCollector.s: GarbageCollector.cpp.s
+
+.PHONY : GarbageCollector.s
+
+# target to generate assembly for a file
+GarbageCollector.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/GarbageCollector.cpp.s
+.PHONY : GarbageCollector.cpp.s
+
+LInkedLIstGC.o: LInkedLIstGC.cpp.o
+
+.PHONY : LInkedLIstGC.o
+
+# target to build an object file
+LInkedLIstGC.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.o
+.PHONY : LInkedLIstGC.cpp.o
+
+LInkedLIstGC.i: LInkedLIstGC.cpp.i
+
+.PHONY : LInkedLIstGC.i
+
+# target to preprocess a source file
+LInkedLIstGC.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.i
+.PHONY : LInkedLIstGC.cpp.i
+
+LInkedLIstGC.s: LInkedLIstGC.cpp.s
+
+.PHONY : LInkedLIstGC.s
+
+# target to generate assembly for a file
+LInkedLIstGC.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/LInkedLIstGC.cpp.s
+.PHONY : LInkedLIstGC.cpp.s
+
 MPointer.o: MPointer.cpp.o
 
 .PHONY : MPointer.o
@@ -149,6 +230,87 @@ MPointer.s: MPointer.cpp.s
 MPointer.cpp.s:
 	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/MPointer.cpp.s
 .PHONY : MPointer.cpp.s
+
+NodeGC.o: NodeGC.cpp.o
+
+.PHONY : NodeGC.o
+
+# target to build an object file
+NodeGC.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeGC.cpp.o
+.PHONY : NodeGC.cpp.o
+
+NodeGC.i: NodeGC.cpp.i
+
+.PHONY : NodeGC.i
+
+# target to preprocess a source file
+NodeGC.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeGC.cpp.i
+.PHONY : NodeGC.cpp.i
+
+NodeGC.s: NodeGC.cpp.s
+
+.PHONY : NodeGC.s
+
+# target to generate assembly for a file
+NodeGC.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeGC.cpp.s
+.PHONY : NodeGC.cpp.s
+
+NodeLD.o: NodeLD.cpp.o
+
+.PHONY : NodeLD.o
+
+# target to build an object file
+NodeLD.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeLD.cpp.o
+.PHONY : NodeLD.cpp.o
+
+NodeLD.i: NodeLD.cpp.i
+
+.PHONY : NodeLD.i
+
+# target to preprocess a source file
+NodeLD.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeLD.cpp.i
+.PHONY : NodeLD.cpp.i
+
+NodeLD.s: NodeLD.cpp.s
+
+.PHONY : NodeLD.s
+
+# target to generate assembly for a file
+NodeLD.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/NodeLD.cpp.s
+.PHONY : NodeLD.cpp.s
+
+ReferenceCounter.o: ReferenceCounter.cpp.o
+
+.PHONY : ReferenceCounter.o
+
+# target to build an object file
+ReferenceCounter.cpp.o:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.o
+.PHONY : ReferenceCounter.cpp.o
+
+ReferenceCounter.i: ReferenceCounter.cpp.i
+
+.PHONY : ReferenceCounter.i
+
+# target to preprocess a source file
+ReferenceCounter.cpp.i:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.i
+.PHONY : ReferenceCounter.cpp.i
+
+ReferenceCounter.s: ReferenceCounter.cpp.s
+
+.PHONY : ReferenceCounter.s
+
+# target to generate assembly for a file
+ReferenceCounter.cpp.s:
+	$(MAKE) -f CMakeFiles/MpointersClient.dir/build.make CMakeFiles/MpointersClient.dir/ReferenceCounter.cpp.s
+.PHONY : ReferenceCounter.cpp.s
 
 Socket.o: Socket.cpp.o
 
@@ -213,9 +375,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MpointersClient"
+	@echo "... DoubleLInkedList.o"
+	@echo "... DoubleLInkedList.i"
+	@echo "... DoubleLInkedList.s"
+	@echo "... GarbageCollector.o"
+	@echo "... GarbageCollector.i"
+	@echo "... GarbageCollector.s"
+	@echo "... LInkedLIstGC.o"
+	@echo "... LInkedLIstGC.i"
+	@echo "... LInkedLIstGC.s"
 	@echo "... MPointer.o"
 	@echo "... MPointer.i"
 	@echo "... MPointer.s"
+	@echo "... NodeGC.o"
+	@echo "... NodeGC.i"
+	@echo "... NodeGC.s"
+	@echo "... NodeLD.o"
+	@echo "... NodeLD.i"
+	@echo "... NodeLD.s"
+	@echo "... ReferenceCounter.o"
+	@echo "... ReferenceCounter.i"
+	@echo "... ReferenceCounter.s"
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
